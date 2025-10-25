@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- EDIT THE TITLE -->
+    <title>Clara (Yehyun) Kyung | Economics PhD | Teaching</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div>
+                <!-- EDIT YOUR NAME, links to homepage -->
+                <a href="index.html" class="text-xl font-bold text-gray-900">Clara (Yehyun) Kyung</a>
+            </div>
+            <div class="hidden md:flex items-center space-x-8">
+                <!-- Links to homepage research section -->
+                <a href="index.html#research" class="text-gray-600 hover:text-blue-600 transition-colors">Research</a>
+               <!-- Active link for teaching page -->
+                <a href="teaching.html" class="font-semibold text-blue-600 transition-colors">Teaching</a>
+                <a href="CV.pdf" target="_blank" class="text-gray-600 hover:text-blue-600 transition-colors">CV</a>
+            </div>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-800 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-2">
+            <a href="index.html#research" class="block text-gray-600 hover:text-blue-600">Research</a>
+            <a href="teaching.html" class="block font-semibold text-blue-600">Teaching</a>
+            <a href="CV.pdf" target="_blank" class="block text-gray-600 hover:text-blue-600">CV</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12 md:py-20 min-h-screen">
+        <h1 class="text-3xl font-bold text-gray-900 border-b-2 border-blue-600 pb-2 inline-block">Teaching Experience</h1>
+
+        <!-- EDIT YOUR TEACHING INTERESTS -->
+        <!-- <section class="mt-12">
+            <h2 class="text-2xl font-semibold text-gray-800">Teaching Interests</h2>
+            <ul class="mt-4 list-disc list-inside text-lg text-gray-700 space-y-2">
+                <li>Economics of Education</li>
+                <li>Labor Economics</li>
+                <li>Public Economics</li>
+                <li>Econometrics (Undergraduate and Graduate)</li>
+            </ul>
+        </section> -->
+
+        <!-- EDIT YOUR INSTRUCTOR ROLES -->
+        <!-- <section class="mt-12">
+            <h2 class="text-2xl font-semibold text-gray-800">Instructor of Record</h2>
+            <div class="mt-4 space-y-4">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-700">Introduction to Microeconomics</h3>
+                    <p class="text-gray-600">University of Example, Spring 2024</p> -->
+                    <!-- You can add links to syllabi here -->
+                    <!-- <a href="files/Syllabus_Intro.pdf" target="_blank" class="text-blue-600 hover:underline">Syllabus (PDF)</a> -->
+                <!-- </div> -->
+                <!-- Add more courses as needed -->
+            <!-- </div>
+        </section>  -->
+
+        <!-- EDIT YOUR TA ROLES -->
+        <section class="mt-12">
+            <h2 class="text-2xl font-semibold text-gray-800">Teaching Assistant</h2>
+            <div class="mt-4 space-y-4">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-700">Industrial Organization (undergraduate)</h3>
+                    <p class="text-gray-600">University of Chicago, Spring 2023, 2024</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-blue-700">Econometrics (undergraduate)</h3>
+                    <p class="text-gray-600">University of Chicago, Fall 2023</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-blue-700">Labor Economics (graduate)</h3>
+                    <p class="text-gray-600">University of Chicago, Fall 2022</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-blue-700">Economics of Education (undergraduate)</h3>
+                    <p class="text-gray-600">University of Chicago, Fall 2021</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- TEACHING EVALUATIONS -->
+        <section class="mt-12">
+            <h2 class="text-2xl font-semibold text-gray-800">Teaching Evaluations</h2>
+            <p class="mt-4 text-lg text-gray-700">
+                Teaching evaluations are available upon request.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 border-t border-gray-200 mt-16 md:mt-24">
+        <div class="container mx-auto px-6 py-6 text-center text-gray-600">
+            <!-- EDIT YOUR NAME AND THE YEAR -->
+            <p>&copy; 2025 Clara (Yehyun) Kyung. Website built with GitHub Pages.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
